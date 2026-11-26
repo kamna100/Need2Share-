@@ -862,7 +862,7 @@ useEffect(() => {
     <span className="section-label">
       <i className="fa-solid fa-heart"></i> Our Community Impact
     </span>
-    <h2>Real Donations, Real Smiles</h2>
+    <h3>Real Donations, Real Smiles</h3>
     <p>See the donations successfully shared in our community.</p>
   </div>
   {completedDonations.length === 0 ? (
