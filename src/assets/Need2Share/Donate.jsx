@@ -180,7 +180,7 @@ function Donate() {
       }
 
       const response = await fetch(
-        "http://https://need2share-backend.onrender.com/api/donations",
+        "https://need2share-backend.onrender.com/api/donations",
         {
           method: "POST",
           body: donationData,
