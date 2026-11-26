@@ -68,8 +68,8 @@ const categories = [
   { id: "household", label: "Household", icon: "fa-chair" },
 ];
 
-const DONATION_API = "http://localhost:5000/api/donations";
-const REQUEST_API = "http://localhost:5000/api/requests";
+const DONATION_API = "http://https://need2share-backend.onrender.com/api/donations";
+const REQUEST_API = "http://https://need2share-backend.onrender.com/api/requests";
 
 function Explore() {
   const [searchParams, setSearchParams] = useSearchParams();

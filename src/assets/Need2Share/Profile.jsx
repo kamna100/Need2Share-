@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 const PROFILE_KEY = "need2share_profile";
-const API_URL = "http://localhost:5000/api/donations";
-const REQUEST_API_URL = "http://localhost:5000/api/requests";
+const API_URL = "http://https://need2share-backend.onrender.com/api/donations";
+const REQUEST_API_URL = "http://https://need2share-backend.onrender.com/api/requests";
 function readLocalStorage(key, fallback) {
   try {
     const value = localStorage.getItem(key);
